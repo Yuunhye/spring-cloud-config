@@ -1,0 +1,6 @@
+token:
+  expiration_time: 864
+  secret: 16KoQxoXORuacUf3eeIuxYUHP849oUy7hBfwIq/6svBR5e6dvERR47ZBLNbjgxbuY6PT8IO1xARs26q0ACNwfw==-dev
+
+gateway:
+  ip: 192.168.0.32
