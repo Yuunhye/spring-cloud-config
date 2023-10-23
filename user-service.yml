@@ -3,10 +3,9 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:tcp://localhost/~/test
     username: sa
-    password: '{cipher}AQBLZrnJcNu+LT3TgNfg1HVcxJR0lmgNFO3ceYHR2eE2K+u/er4bh8LTsJNjDUhuo3dLn6dSXh/3nh/AmknnFvXGy9aa4jWXgWd4AdA3Z1PYLBZaUtH0AQKXMJidvF8bkL8OwSpyqS8BM8W9BjksqKdpDZLe0oKbgHgArWT/EhcCOY1b/pgNrzd4oVGyxfCWcduF6RT6KrEyeAJMSkIEpWM4x6R0KTK9TZ7fgs+nBn7Tfq9ejcAhbxuzs5D0j7+aMAeAlNILeLy62nQprPgVGKUnZuG3EjfniE/jarNZ3DfvMANnfbOY1i22YExx81gISbFLWTebSpqkBxGTAjwEdUzLc931J5JVlcRYPTsZeDnfmERJXRZNd7kqKySnrytPJ80='
-
+  
 gateway:
-  ip: 192.168.0.32
+  ip: 172.18.0.5
 
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
